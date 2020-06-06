@@ -1,8 +1,13 @@
 <?php
 
-$cursos = file_get_contents('lista-cursos.txt');
+// $cursos = file_get_contents('lista-cursos.txt');
+// 
+// echo "<pre>";
+// echo "\n" . $cursos;
 
-echo "$cursos <br />";
+echo "<pre>";
+
+echo file_get_contents('https://swapi.dev/api/films/4/');
 
 // $arquivo = fopen('lista-cursos.txt', 'r');
 
